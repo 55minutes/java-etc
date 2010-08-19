@@ -49,8 +49,9 @@ pre
   font-size: 14px;
 }
 
-dl, ol, p, pre, ul
+dl, ol, p, pre, table, ul
 {
+  margin-top: 18px;
   margin-bottom: 18px;
 }
 
@@ -62,6 +63,24 @@ dl
 dd dd
 {
   margin-left: 18px;
+}
+
+dd pre
+{
+  margin-left: 2em;
+  color: #707070;
+}
+
+dd table th,
+dd table td
+{
+  padding: 4px 15px 5px 0px !important;
+  font-size: 14px !important;
+}
+
+dd table th
+{
+  font-weight: bold;
 }
 
 h1, h2, h3
@@ -88,7 +107,7 @@ h2
 h3
 {
   margin: 26px 0 12px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
 }
 
@@ -118,6 +137,7 @@ table table,
 table table th,
 table table td
 {
+  margin: 0;
   border-style: none;
 }
 
