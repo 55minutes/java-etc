@@ -49,7 +49,7 @@ pre
   font-size: 14px;
 }
 
-dl, ol, p, pre, table, ul
+dl, ol, p, pre, ul
 {
   margin-top: 18px;
   margin-bottom: 18px;
@@ -81,6 +81,11 @@ dd table td
 dd table th
 {
   font-weight: bold;
+}
+
+em
+{
+  font-style: italic;
 }
 
 h1, h2, h3
@@ -118,6 +123,12 @@ hr
   height: 2px;
   background-color: $oreo-milkshake;
   font-size: 0;
+}
+
+ol
+{
+  margin-left: 20px;
+  list-style-type: decimal;
 }
 
 table th,
