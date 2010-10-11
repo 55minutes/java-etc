@@ -16,7 +16,6 @@
 /* Variables */
 /* Colors */
 /* Fonts */
-/* line 14, ../../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -36,65 +35,54 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-/* line 17, ../../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
   color: black;
   background: white;
 }
 
-/* line 19, ../../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 21, ../../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: separate;
   border-spacing: 0;
   vertical-align: middle;
 }
 
-/* line 23, ../../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 25, ../../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: "" "";
 }
-/* line 96, ../../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
 }
 
-/* line 27, ../../../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
 /*-----[ core ]-----------------------------------------------------------------
 */
-/* line 22, ../src/screen.scss */
 a {
   color: #6f452b;
 }
 
-/* line 28, ../src/screen.scss */
 a:hover,
 a:active {
   color: #c8653a;
 }
 
-/* line 33, ../src/screen.scss */
 a:link:visited {
   color: #4b2b6f;
 }
 
-/* line 38, ../src/screen.scss */
 body {
   padding: 18px;
   font-family: "Calibri", "Myriad Pro", "Tahoma", sans-serif;
@@ -102,59 +90,49 @@ body {
   line-height: 20px;
 }
 
-/* line 47, ../src/screen.scss */
 code,
 pre {
   font-family: "Consolas", "Menlo", "Monaco", "Lucida Console", monospace;
-  font-size: 14px;
+  font-size: 87.5%;
 }
 
-/* line 53, ../src/screen.scss */
 dl, ol, p, pre, ul {
   margin-top: 18px;
   margin-bottom: 8px;
 }
 
-/* line 59, ../src/screen.scss */
 dl {
   margin-bottom: 24px;
 }
 
-/* line 64, ../src/screen.scss */
 dd dd {
   margin-left: 18px;
 }
 
-/* line 69, ../src/screen.scss */
 pre.example {
   border-left: 4px solid #dde7f3;
   font-size: 12px;
   padding: 4px 1em;
 }
 
-/* line 77, ../src/screen.scss */
 dd table th,
 dd table td {
   padding: 4px 15px 5px 0px !important;
   font-size: 14px !important;
 }
 
-/* line 83, ../src/screen.scss */
 dd table th {
   font-weight: bold;
 }
 
-/* line 88, ../src/screen.scss */
 em {
   font-style: italic;
 }
 
-/* line 93, ../src/screen.scss */
 h1, h2, h3 {
   font-weight: bold;
 }
 
-/* line 98, ../src/screen.scss */
 h1 {
   margin: 36px 0 12px;
   color: #c8653a;
@@ -162,7 +140,6 @@ h1 {
   line-height: 24px;
 }
 
-/* line 106, ../src/screen.scss */
 h2 {
   margin: 16px 0 18px;
   color: #c8653a;
@@ -170,14 +147,12 @@ h2 {
   line-height: 24px;
 }
 
-/* line 114, ../src/screen.scss */
 h3 {
   margin: 26px 0 12px;
   font-size: 20px;
   line-height: 20px;
 }
 
-/* line 121, ../src/screen.scss */
 hr {
   margin: 18px 0 16px;
   border-style: none;
@@ -186,22 +161,18 @@ hr {
   font-size: 0;
 }
 
-/* line 130, ../src/screen.scss */
 li ul, li ol {
   margin-bottom: 0;
 }
 
-/* line 135, ../src/screen.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 140, ../src/screen.scss */
 ol, ul {
   margin-top: 8px;
 }
 
-/* line 146, ../src/screen.scss */
 table th,
 table td {
   border-bottom: 1px solid #e5dbc7;
@@ -210,7 +181,6 @@ table td {
   vertical-align: top;
 }
 
-/* line 160, ../src/screen.scss */
 table table,
 table table th,
 table table td {
@@ -218,7 +188,6 @@ table table td {
   border-style: none;
 }
 
-/* line 166, ../src/screen.scss */
 ul li, ol li {
   font-size: 15px;
   line-height: 18px;
@@ -226,26 +195,22 @@ ul li, ol li {
   margin-left: 3em;
 }
 
-/* line 174, ../src/screen.scss */
 ul li {
   list-style-type: disc;
 }
 
 /*-----[ content ]--------------------------------------------------------------
 */
-/* line 182, ../src/screen.scss */
 h2 font {
   color: black;
   font-family: "Consolas", "Menlo", "Monaco", "Lucida Console", monospace;
   font-size: 14px;
 }
 
-/* line 189, ../src/screen.scss */
 body hr:first-child {
   display: none;
 }
 
-/* line 195, ../src/screen.scss */
 body table:first-child th,
 body table:first-child td {
   padding: 0;
@@ -253,13 +218,11 @@ body table:first-child td {
 
 /*-----[ tables ]---------------------------------------------------------------
 */
-/* line 204, ../src/screen.scss */
 table[border="0"] th,
 table[border="0"] td {
   border-style: none;
 }
 
-/* line 211, ../src/screen.scss */
 tr.TableHeadingColor th,
 tr.TableSubHeadingColor th,
 td.NavBarCell1 {
@@ -267,34 +230,28 @@ td.NavBarCell1 {
   background-color: #dde7f3 !important;
 }
 
-/* line 217, ../src/screen.scss */
 td.NavBarCell1 td.NavBarCell1 {
   border-top-style: none;
 }
 
-/* line 222, ../src/screen.scss */
 td.NavBarCell1 + td[align=right] {
   padding: 0;
   font-size: 0;
 }
 
-/* line 228, ../src/screen.scss */
 td.NavBarCell1 {
   padding: 0;
 }
 
-/* line 233, ../src/screen.scss */
 td.NavBarCell1 td {
   padding: 4px 5px 5px;
 }
 
-/* line 238, ../src/screen.scss */
 td.NavBarCell2 {
   font-size: 14px;
   font-weight: normal;
 }
 
-/* line 244, ../src/screen.scss */
 td[align=right] {
   text-align: right;
 }
